@@ -1,0 +1,21 @@
+﻿Build started 6/16/2015 12:20:48 PM.
+     1>Project "C:\Users\Kevin\Documents\From Lenovo\Documents\Visual Studio 2012\Projects\CIS 234 Interface v0\CIS 234 Interface v0\CIS 234 Interface v0.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Program Files\MySQL\MySQL Server 5.5\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Constants.cpp DB_Object.cpp Interface.cpp "Interface Components.cpp"
+         Interface Components.cpp
+         Interface.cpp
+     1>c:\users\kevin\documents\from lenovo\documents\visual studio 2012\projects\cis 234 interface v0\cis 234 interface v0\interface.cpp(300): warning C4390: ';' : empty controlled statement found; is this the intent?
+         DB_Object.cpp
+         Constants.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Kevin\Documents\From Lenovo\Documents\Visual Studio 2012\Projects\CIS 234 Interface v0\Debug\CIS 234 Interface v0.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\MySQL\mysql-5.6.25-win32\lib" /LIBPATH:"C:\Program Files\MySQL\MySQL Server 5.5\lib" mysqlclient.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Kevin\Documents\From Lenovo\Documents\Visual Studio 2012\Projects\CIS 234 Interface v0\Debug\CIS 234 Interface v0.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Kevin\Documents\From Lenovo\Documents\Visual Studio 2012\Projects\CIS 234 Interface v0\Debug\CIS 234 Interface v0.lib" /MACHINE:X86 Debug\Constants.obj
+         Debug\DB_Object.obj
+         Debug\Interface.obj
+         "Debug\Interface Components.obj"
+         CIS 234 Interface v0.vcxproj -> C:\Users\Kevin\Documents\From Lenovo\Documents\Visual Studio 2012\Projects\CIS 234 Interface v0\Debug\CIS 234 Interface v0.exe
+     1>Done Building Project "C:\Users\Kevin\Documents\From Lenovo\Documents\Visual Studio 2012\Projects\CIS 234 Interface v0\CIS 234 Interface v0\CIS 234 Interface v0.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.18
